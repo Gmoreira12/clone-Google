@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-ul{
+.link-topo{
     display: flex;
     align-items: center;
     text-align: right;
