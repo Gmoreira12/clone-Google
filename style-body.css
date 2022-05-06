@@ -1,0 +1,20 @@
+.conteudo{
+    justify-content: center;
+    text-align: center;
+}
+.google{
+    position: relative;
+    top: 6.5vw;
+}
+.pesquisa{
+    padding: 0.9vw;
+    width: 40vw;
+    text-align: center;
+    border: none;
+    filter: drop-shadow(1px 2px 4px rgb(219, 219, 219));
+    border-radius: 2vw;
+    position: relative;
+    top:10vw;
+    left: 31vw;
+    
+}
