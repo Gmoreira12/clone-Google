@@ -2,7 +2,6 @@ html{
     width: 100% ;
 }
 .conteudo{
-    
     justify-content: center;
     text-align: center;
 }
@@ -11,35 +10,65 @@ html{
     top: 6.5vw;
 }
 .pesquisa{
-    padding: 0.9vw;
-    width: 40vw;
-    text-align: center;
+    padding: 0 3vw;
+    width: 41vw;
+    height: 6.8vh;
     border: none;
     filter: drop-shadow(1px 2px 4px rgb(219, 219, 219));
     border-radius: 2vw;
     position: relative;
-    top:10vw;
-    left: 31vw;
+    top:9vw;
+    left: 29vw;
+    font-size: 15px;
+    color:rgb(88, 85, 85)
+}
+
+.lupa{
+    position: relative;
+    left: 30vw;
+    top:13vh
+}
+.microfone{
+    position:relative;
+    top:13.5vh;
+    left: 65vw;
 }
 .link-destaque{
     display: flex;
     align-items: center;
     text-align: center;
-    
     justify-content: center;
 }
-
-
+.link-destaque div:hover{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(217, 223, 223);
+    border-radius: 5px;
+    transition: .2s ease-in-out;
+}
+.link-destaque li{
+    margin: 9px 4px;
+}
 .img-destaques{
-    width: 25px;
-    
-    
+    width: 50px;
+    background-color: rgb(245, 245, 245);
+    padding: 15px;
+    border-radius: 50%;
+    margin-bottom: 10px;
 }
 .conteiner-destaques{
     position: relative;
-    top:200px;
+    top:110px;
 }
 .tamanho-destaque{
     width: 10px;
     display: inline;
+}
+.link-destaque div li a{
+    text-decoration: none;
+    color:rgb(82, 82, 82);
+    font-family:'Arial';
+    font-size: 15px;
 }

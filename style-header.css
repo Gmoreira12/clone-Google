@@ -20,6 +20,8 @@ ul li{
     color: #000;
     color:rgb(82, 79, 79);
     font-weight: normal;
+    font-family:'Arial';
+    font-size: 13px;
 }
 .logo{
     width: 1.5vw;
